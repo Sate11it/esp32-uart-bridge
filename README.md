@@ -44,8 +44,8 @@ no framing overhead.
 
 ## Known limitations (read this)
 
-- **3.3V ONLY!!!
-- **No error checks
+- **3.3V ONLY!!!**
+- **No error checks**
 - **Busy-wait polling.** `loop()` spins at 240 MHz with zero-timeout
   reads. Fine on USB power; do not expect battery life or light-sleep.
 - **Do not print debug output.** The console lives on UART0; any
